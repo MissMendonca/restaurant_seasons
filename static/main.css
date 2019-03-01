@@ -1,0 +1,22 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    
+}
+/*Background Images*/
+
+.background_image{
+    background-image: url(/static/image/grilled-seafood.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    height: 70%; 
+    border: 2px ridge #B5A774; 
+}
+
+.background_image_heading{
+    color: #fff;
+    font-weight: 700;
+    padding: 75px 0;
+}
