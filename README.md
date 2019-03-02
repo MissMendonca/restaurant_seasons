@@ -20,9 +20,10 @@ i. Allows a user to view the menu online ;
           
 ii. iframe Booking system - Allows a user to book a table;
 
-!!! Attention I have not created the iframe Booking system present in my website. The openTable iframe was taken from "Dinner by Heston Blumenthal" website!!!!
+!!! Attention: I have not created the iframe Booking system present in my website. The openTable iframe was taken from "Dinner by Heston Blumenthal" website!!!!
 
-iii.Shows a list of the upcoming events taking place in the restaurant ;
+iii.Events.html page - Shows a list of the upcoming events taking place in the restaurant
+        Bootstrap cards- The bootstrap card displays information regarding the date of the event as well as the Artist's name and picture.
 
 iv. Provides Historic information about the restaurant and the staff; 
 

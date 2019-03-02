@@ -41,6 +41,10 @@ body,html{
 #restaurant_bg_image{
     background-image: url(/static/image/others/restaurant_main.jpg);
 }
+
+#about_bg_image{
+    background-image: url(/static/image/others/groupofriends.jpg);
+}
 /* Colors */
 
 span > i{
