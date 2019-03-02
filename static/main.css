@@ -15,7 +15,7 @@ body,html{
 
 /*Background Color*/
 
-.slide_bg_color, .footer_bg_color{
+.slide_bg_color, .footer_bg_color, .staff_bg_color{
     background-color: #fcfcfa;
 }
 
@@ -80,6 +80,10 @@ a{
 
 
 /*Margin, Padding, Center*/
+.staff_margin{
+    margin: 0 35px;    
+    
+}
 
 .center{
     display: block;
