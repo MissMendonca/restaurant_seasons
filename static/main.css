@@ -3,6 +3,13 @@ body,html{
     margin: 0;
     
 }
+
+/*Background Color*/
+
+.slide_bg_color{
+    background-color: #fcfcfa;
+}
+
 /*Background Images*/
 
 .background_image{
@@ -20,12 +27,23 @@ body,html{
     font-weight: 700;
     padding: 100px 0;
 }
+
+
+
+/*Margin, Padding, Center*/
+
 .center{
     display: block;
     margin: 0 auto;
     left:0;
     right:0;
     text-align: center;
+}
+.horizontal{
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #415840 inset;
+	width:75%;   
 }
 
 /*Media queries */
