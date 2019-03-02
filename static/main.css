@@ -20,6 +20,13 @@ body,html{
     font-weight: 700;
     padding: 100px 0;
 }
+.center{
+    display: block;
+    margin: 0 auto;
+    left:0;
+    right:0;
+    text-align: center;
+}
 
 /*Media queries */
 @media(max-width: 767px){
