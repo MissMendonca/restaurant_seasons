@@ -92,7 +92,10 @@ a{
     margin-left: 0;
     margin-top: 0;
 }
-
+.artists_events_div_width{
+    width: 90%;
+    
+}
 
 /*Hr */
 
@@ -115,6 +118,15 @@ a{
 
 /*Media queries */
 
+@media(min-width: 576px ){
+    .border_footer{
+        border-top: 0;
+        border-bottom: 0;
+        border-left:  2px ridge #B5A774;
+        border-right:  2px ridge #B5A774;
+    }
+}
+
 
 @media (min-width: 768px) and (max-width: 991px){
     .background_heading_home{
@@ -123,16 +135,13 @@ a{
     }
 }
 @media (min-width:768px){
-    .border_footer{
-        border-top: 0;
-        border-bottom: 0;
-        border-left:  2px ridge #B5A774;
-        border-right:  2px ridge #B5A774;
-    }
-    
     .background_heading{
         font-size: 5em;
         padding: 150px 0;
+    }
+    
+    .artists_events_div_width{
+        width: 95%;
     }
 }
 
