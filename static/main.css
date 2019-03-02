@@ -55,18 +55,20 @@ span > i{
     font-family: 'Fredericka the Great', cursive;
     color: #415840;
     
+    
 }
 .text_changes, .footer_items{
     font-family: 'Merienda', cursive;  
     
 }
 
+a{
+    text-decoration: none !important;
+}
+
 .text_changes, .navbar-light .navbar-nav .nav-link{
     font-size: 20px;
 }
-
-
-
 
 
 /*Margin, Padding, Center*/
@@ -94,7 +96,7 @@ span > i{
 
 /*Hover*/
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover, .heading:hover{
     color: #628460;
 }
 .footer_items:hover{
