@@ -1,9 +1,10 @@
 body,html{
     height: 100%;
     margin: 0;
-    
 }
+
 /*Border*/
+
 .border_footer_top, .border_top{
     border-top: 2px ridge #B5A774;
 }
@@ -12,17 +13,11 @@ body,html{
    border-bottom: 2px ridge #B5A774
 }
 
-
 /*Background Color*/
 
 .slide_bg_color, .footer_bg_color{
     background-color: #fcfcfa;
 }
-
-.footer_items:hover{
-    background-color: #f0ede3;
-}
-
 
 /*Background Images*/
 
@@ -44,6 +39,19 @@ body,html{
 
 
 
+/*Font family, Font size, Font */
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Fredericka the Great', cursive;
+    color: #415840;
+    font-size: larger;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color:#a0ab9f;
+}
+
 /*Margin, Padding, Center*/
 
 .center{
@@ -54,10 +62,12 @@ body,html{
     text-align: center;
 }
 
-
 .padding_div{
     padding: 25px 0;    
 }
+
+/*Hr */
+
 .horizontal{
     height: 10px;
 	border: 0;
@@ -65,6 +75,14 @@ body,html{
 	width:75%;   
 }
 
+/*Hover*/
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #628460;
+}
+.footer_items:hover{
+    background-color: #f0ede3;
+}
 
 
 /*Media queries */
