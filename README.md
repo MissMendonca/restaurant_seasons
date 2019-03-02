@@ -20,9 +20,9 @@ i. Allows a user to view the menu online ;
           
 ii. iframe Booking system - Allows a user to book a table;
 
-!!! Attention I have not created the iframe Booking system present in my website. The iframe is from Dinner by Heston Blumenthal website !!!!
+!!! Attention I have not created the iframe Booking system present in my website. The openTable iframe was taken from "Dinner by Heston Blumenthal" website!!!!
 
-iii. Shows a list of the upcoming events taking place in the restaurant ;
+iii.Shows a list of the upcoming events taking place in the restaurant ;
 
 iv. Provides Historic information about the restaurant and the staff; 
 
