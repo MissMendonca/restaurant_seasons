@@ -3,10 +3,19 @@ body,html{
     margin: 0;
     
 }
+/*Border*/
+.border_footer_top{
+    border-top: 2px ridge #B5A774;
+}
+.border_footer{
+   border-top: 2px ridge #B5A774;
+   border-bottom: 2px ridge #B5A774
+}
+
 
 /*Background Color*/
 
-.slide_bg_color{
+.slide_bg_color, .footer_bg_color{
     background-color: #fcfcfa;
 }
 
@@ -52,10 +61,19 @@ body,html{
 }
 
 
+
 @media (min-width: 768px) and (max-width: 991px){
     .background_image_heading{
         padding-top: 200px;
         font-size: 6em;
+    }
+}
+@media (min-width:768px){
+    .border_footer{
+        border-top: 0;
+        border-bottom: 0;
+        border-left:  2px ridge #B5A774;
+        border-right:  2px ridge #B5A774;
     }
 }
 
