@@ -4,7 +4,7 @@ body,html{
     
 }
 /*Border*/
-.border_footer_top{
+.border_footer_top, .border_top{
     border-top: 2px ridge #B5A774;
 }
 .border_footer{
@@ -18,6 +18,11 @@ body,html{
 .slide_bg_color, .footer_bg_color{
     background-color: #fcfcfa;
 }
+
+.footer_items:hover{
+    background-color: #f0ede3;
+}
+
 
 /*Background Images*/
 
@@ -48,12 +53,19 @@ body,html{
     right:0;
     text-align: center;
 }
+
+
+.padding_div{
+    padding: 25px 0;    
+}
 .horizontal{
     height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #415840 inset;
 	width:75%;   
 }
+
+
 
 /*Media queries */
 @media(max-width: 767px){
