@@ -32,25 +32,42 @@ body,html{
 }
 
 .background_image_heading{
+    font-family: 'Merienda', cursive; 
     color: #fff;
     font-weight: 700;
     padding: 100px 0;
 }
+/* Colors */
 
-
-
-/*Font family, Font size, Font */
-
-.navbar-light .navbar-nav .nav-link{
-    font-family: 'Fredericka the Great', cursive;
-    color: #415840;
-    font-size: larger;
+span > i{
+   font-size: x-large; 
+   color: #415840;
 }
-
 
 .navbar-light .navbar-nav .active>.nav-link{
     color:#a0ab9f;
 }
+
+
+/*Font family, Font size, Font */
+
+.navbar-light .navbar-nav .nav-link, .heading {
+    font-family: 'Fredericka the Great', cursive;
+    color: #415840;
+    
+}
+.text_changes, .footer_items{
+    font-family: 'Merienda', cursive;  
+    
+}
+
+.text_changes, .navbar-light .navbar-nav .nav-link{
+    font-size: 20px;
+}
+
+
+
+
 
 /*Margin, Padding, Center*/
 
