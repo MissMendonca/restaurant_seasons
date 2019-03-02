@@ -48,7 +48,7 @@ span > i{
    color: #415840;
 }
 
-.navbar-light .navbar-nav .active>.nav-link{
+.navbar-light .navbar-nav .active> .nav-link{
     color:#a0ab9f;
 }
 
