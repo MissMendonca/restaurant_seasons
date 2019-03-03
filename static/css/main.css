@@ -5,6 +5,7 @@ body,html{
 
 /*Border*/
 
+
 .border_footer_top, .border_top{
     border-top: 2px ridge #B5A774;
 }
@@ -20,12 +21,14 @@ body,html{
 
 /*Background Color*/
 
+
 .slide_bg_color, .footer_bg_color, .staff_bg_color, .contact_bg_color, .menu_bg_color, .nav_bg_color .nav-link.active{
     background-color: #fcfcfa;
 }
 
 
 /*Background Images*/
+
 
 .background_image{
     background-repeat: no-repeat;
@@ -44,30 +47,30 @@ body,html{
     padding: 100px 0;
 }
 
-#restaurant_bg_image{
+#home_bg_image{
+    background-image: url(/static/image/food_images/seafood.jpg);
+}
+
+#menu_bg_image{
+    background-image: url(/static/image/others/restaurant.jpg);
+ }
+#events_bg_image{
     background-image: url(/static/image/others/artist.jpeg);
+}
+#about_bg_image{
+    background-image: url(/static/image/others/groupofriends.jpg);
 }
 
 #contact_bg_image{
     background-image: url(/static/image/others/coffeemailt.jpg);
 }
 
-#about_bg_image{
-    background-image: url(/static/image/others/groupofriends.jpg);
-}
-
-
-#home_bg_image{
-    background-image: url(/static/image/food_images/seafood.jpg);
-}
-
- #menu_bg_image{
-    background-image: url(/static/image/others/restaurant.jpg);
- }
 
 /* Colors */
-.menu-item-price{
-    color:  #a0a0a0;
+
+
+.navbar-light .navbar-nav .active> .nav-link{
+    color:#a0ab9f;
 }
 
 span > i, .cheers{
@@ -75,44 +78,34 @@ span > i, .cheers{
    color: #415840;
 }
 
-.navbar-light .navbar-nav .active> .nav-link{
-    color:#a0ab9f;
+.menu-item-price{
+    color:  #a0a0a0;
 }
 
 
 /*Font family, Font size, Font */
 
+
 .navbar-light .navbar-nav .nav-link, .heading, .button_heading {
     font-family: 'Fredericka the Great', cursive;
     color: #415840;
-    
-    
-}
-.text_family_size, .footer_items, .menu-item-description, .menu-item-accompaniment, .menu-item-price{
-    font-family: 'Merienda', cursive;  
-    
 }
 
-a{
-    text-decoration: none !important;
+.text_family_size, .footer_items, .menu-item-description, .menu-item-accompaniment, .menu-item-price{
+    font-family: 'Merienda', cursive;  
 }
 
 .text_family_size, .navbar-light .navbar-nav .nav-link{
     font-size: 20px;
 }
+
 .button_heading{
     font-size: 2em;
-    
 }
 
-/*Margin, Padding, Center*/
-.staff_margin{
-    margin: 0 35px;    
-    
-}
-.contact_underline{
-    text-decoration: underline;    
-}
+
+/*Margin, Padding, Width, Height, Center*/
+
 
 .center{
     display: block;
@@ -125,24 +118,29 @@ a{
 .padding_div{
     padding: 25px 0;    
 }
+
+.artists_events_div_width{
+    width: 90%;
+}
+
 .card-deck{
     margin-left: 0;
     margin-top: 0;
 }
-.artists_events_div_width, .contact_image{
-    width: 90%;
-}
-.contact_div_margin{
-    margin-top:  5%;   
-}
 .cards_width{
-    width: 65%;    
+    width: 80%;    
 }
-.staff_image{
+
+.staff_width{
     width: 100%;    
 }
 
+.contact_div_margin{
+    margin-top:  5%;   
+}
+
 /*Hr */
+
 
 .horizontal{
     height: 10px;
@@ -151,7 +149,9 @@ a{
 	width:75%;   
 }
 
+
 /*Hover*/
+
 
 .navbar-light .navbar-nav .nav-link:hover, .heading:hover, .cheers:hover{
     color: #628460;
@@ -160,6 +160,17 @@ a{
     background-color: #f0ede3;
 }
 
+
+/*Others*/
+
+
+a, .btn-link{
+    text-decoration: none !important;
+}
+
+.contact_underline{
+    text-decoration: underline;    
+}
 
 /*Media queries */
 
@@ -180,10 +191,10 @@ a{
     }
 }
 @media (min-width:768px){
-    .contact_image{
-        width: 30%;  
-    }
     
+    .cards_width{
+       width: 60%; 
+    }
     .background_heading{
         font-size: 5em;
         padding: 175px 0;
