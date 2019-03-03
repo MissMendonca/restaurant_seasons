@@ -14,18 +14,20 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <a class="navbar-brand" href="/templates/home.html">
-                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100" class="d-inline-block align-top" alt="Seasons Logo">
+                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100" 
+                    class="d-inline-block align-top" alt="Seasons Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-utensils"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="/templates/home.html">Home </a>
+                        <a class="nav-link" href="/templates/home.html">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="/templates/menu.html">Menu <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/templates/menu.html">Menu<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="/templates/events.html">Events</a>
@@ -44,6 +46,7 @@
         </nav>
     </header>
     <section>
+    
         <!--Menu background_image-->
         <div class="background_image" id= "menu_bg_image">
             <h1 class="background_heading center">Menu</h1>
@@ -52,38 +55,50 @@
         <!--Bootstrap Margin top 5 (mt-5)-->
         <ul class="nav nav-tabs nav-fill nav_bg_color justify-content-center mt-5">
             <li class="nav-item">
-                <a class="nav-link active" href="/templates/menu.html"><h4 class="heading">À LA CARTE</h4></a>
+                <!--Bootstrap padding top 2 (pt-2)-->
+                <a class="nav-link active pt-2" href="/templates/menu.html">
+                    <h4 class="heading">À LA CARTE</h4>
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/templates/drinks.html"><h4 class="heading">DRINKS MENU</h4></a>
+                <a class="nav-link" href="/templates/drinks.html">
+                    <h4 class="heading">DRINKS MENU</h4>
+                </a>
             </li>
         </ul>
+        
         <div class="menu_bg_color padding_div">
+        
+            <!--Bootstrap margin bottom 5 (mb-5)-->
             <div id="accordion" class="cards_width center mb-5">
-                
-                <blockquote class="blockquote text_changes padding_div">
+            
+                <blockquote class="blockquote text_family_size padding_div">
+                    
+                    <!--Bootstrap margin bottom 0 (mb-0)-->
                     <p class="mb-0">"Food is not just eating energy. It's an experience."
                     <footer class="blockquote-footer">Guy Fieri</footer>
                 </blockquote>
                 
-                
                 <div class="card">
-                    <img class="card-img-top presentation_image center" src="/static/image/food_images/mussels.jpg" 
-                        alt="Appetisers Presentation" data-toggle="collapse" data-target="#appetisersCollapse" 
-                        aria-expanded="true" aria-controls="appetisersCollapse">
+                
+                    <!-- When this image is clicked, the card menu is opened/closed.  -->
+                    <img class="card-img-top" src="/static/image/food_images/mussels.jpg" alt="Appetisers Presentation" 
+                        data-toggle="collapse" data-target="#appetisersCollapse" aria-expanded="true" aria-controls="appetisersCollapse">
                         
                     <div class="card-header" id="appetisers">
                     
-                        <!--Bootstrap margin bottom 0(mb-0)-->
+                        <!--Bootstrap margin bottom 0 (mb-0)-->
                         <button class="btn btn-link mb-0" data-toggle="collapse" data-target="#appetisersCollapse" 
                             aria-expanded="true" aria-controls="appetisersCollapse">
+                            
                             <span class="button_heading">Appetisers</span>
-                            <span class="center text_changes text-info"> 
+                            
+                            <!--Bootstrap text-info used to inform the user of the need to click on the image to open the menu.-->
+                            <span class="center text_family_size text-info"> 
                                 The menu opens and closes when you click on the image.
                             </span>
                         </button>
                     </div>
-                    
                     
                     <div id="appetisersCollapse" class="collapse show" aria-labelledby="appetisers" data-parent="#accordion">
                         <div class="card-body center">
@@ -128,16 +143,20 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img id="buttonAppetiser" class="card-img-top" src="/static/image/food_images/lobsterchips.jpeg" 
-                        alt="Fish meal Presentation" data-toggle="collapse" data-target="#fishCollapse" aria-expanded="false" 
-                        aria-controls="fishCollapse">
+                
+                    <!-- When this image is clicked, the card menu is opened/closed.  -->
+                    <img class="card-img-top" src="/static/image/food_images/lobsterchips.jpeg" alt="Fish meal Presentation" 
+                        data-toggle="collapse" data-target="#fishCollapse" aria-expanded="false" aria-controls="fishCollapse">
+                        
                     <div class="card-header" id="mainFish">
                     
                         <!--bootstrap margin bottom 0-->
                         <button  class="btn btn-light collapsed mb-0" data-toggle="collapse" data-target="#fishCollapse" aria-expanded="false" 
                             aria-controls="fishCollapse">
                             <span class="button_heading">Mains - Fish</span>
-                            <span class="center text_changes text-info"> 
+                            
+                            <!--Bootstrap text-info used to inform the user of the need to click on the image to open the menu.-->
+                            <span class="center text_family_size text-info"> 
                                 The menu opens and closes when you click on the image.
                             </span>
                         </button>
@@ -145,50 +164,55 @@
                     <div id="fishCollapse" class="collapse" aria-labelledby="mainFish" data-parent="#accordion">
                         <div class="card-body">
                             <dl class="menu-items">
-                                    <dt class="menu-item-title">Fish Casserole (Cod, Seabream, Sword fish)</dt>
-                                    <dd class="menu-item-description">Wine & Tomato Sauce</dd>
-                                    <dd class="menu-item-accompaniment"> Served with Vegetables</dd>
-                                    <dd class="menu-item-price"> £25</dd>
-                                </dl>
+                                <dt class="menu-item-title">Fish Casserole (Cod, Seabream, Sword fish)</dt>
+                                <dd class="menu-item-description">Wine & Tomato Sauce</dd>
+                                <dd class="menu-item-accompaniment"> Served with Vegetables</dd>
+                                <dd class="menu-item-price"> £25</dd>
+                            </dl>
                             <dl class="menu-items">
-                                    <dt class="menu-item-title">Fresh Whole Lobster </dt>
-                                    <dd class="menu-item-description">Garlic Butter</dd>
-                                    <dd class="menu-item-accompaniment">Served with French Fries <br> *Choose your Lobster* </dd>
-                                    <dd class="menu-item-price">£35</dd>
-                                </dl>
+                                <dt class="menu-item-title">Fresh Whole Lobster </dt>
+                                <dd class="menu-item-description">Garlic Butter</dd>
+                                <dd class="menu-item-accompaniment">Served with French Fries <br> *Choose your Lobster* </dd>
+                                <dd class="menu-item-price">£35</dd>
+                            </dl>
                             <dl class="menu-items">
-                                    <dt class="menu-item-title">Maple Soy Glazed Salmon</dt>
-                                    <dd class="menu-item-accompaniment">Served with Mushroom and Asparagus Risotto</dd>
-                                    <dd class="menu-item-price">£18</dd>
-                                </dl>
+                                <dt class="menu-item-title">Maple Soy Glazed Salmon</dt>
+                                <dd class="menu-item-accompaniment">Served with Mushroom and Asparagus Risotto</dd>
+                                <dd class="menu-item-price">£18</dd>
+                            </dl>
                             <dl class="menu-items">
-                                    <dt class="menu-item-title">Seafood Platter (Whole Lobster or Crab, Oyster, Mussels, King Prawn, Langoustines, Squid, Periwinkle)</dt>
-                                    <dd class="menu-item-description">Mignonette sauce, Cocktail sauce & Lemon</dd>
-                                    <dd class="menu-item-price">£55</dd>
-                                </dl>
+                                <dt class="menu-item-title">Seafood Platter (Whole Lobster or Crab, Oyster, Mussels, King Prawn, Langoustines, Squid, Periwinkle)</dt>
+                                <dd class="menu-item-description">Mignonette sauce, Cocktail sauce & Lemon</dd>
+                                <dd class="menu-item-price">£55</dd>
+                            </dl>
                             <dl class="menu-items">
-                                    <dt class="menu-item-title">Today's Fresh </dt>
-                                    <dd class="menu-item-description">Tartare sauce</dd>
-                                    <dd class="menu-item-accompaniment">Served with French Fries & Mushy Peas</dd>
-                                    <dd class="menu-item-price">£14</dd>
-                                </dl>
+                                <dt class="menu-item-title">Today's Fresh </dt>
+                                <dd class="menu-item-description">Tartare sauce</dd>
+                                <dd class="menu-item-accompaniment">Served with French Fries & Mushy Peas</dd>
+                                <dd class="menu-item-price">£14</dd>
+                            </dl>
                             <dl class="menu-items">
-                                    <dt class="menu-item-title">Tuna Steak *Cooked Rare*</dt>
-                                    <dd class="menu-item-accompaniment">Served with Chopped Salad</dd>
-                                    <dd class="menu-item-price">£16</dd>
-                                </dl>
+                                <dt class="menu-item-title">Tuna Steak *Cooked Rare*</dt>
+                                <dd class="menu-item-accompaniment">Served with Chopped Salad</dd>
+                                <dd class="menu-item-price">£16</dd>
+                            </dl>
                         </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img data-toggle="collapse" data-target="#meatCollapse" aria-expanded="false" aria-controls="meatCollapse" 
-                    class="card-img-top" src="/static/image/food_images/filet.jpg" alt="Meat Presentation">
+                
+                    <!-- When this image is clicked, the card menu is opened/closed.  -->
+                    <img class="card-img-top" src="/static/image/food_images/filet.jpg" alt="Meat Presentation"
+                        data-toggle="collapse" data-target="#meatCollapse" aria-expanded="false" aria-controls="meatCollapse">
+                    
                     <div class="card-header" id="mainMeat">
                     
                         <!--bootstrap margin bottom 0-->
                         <button class="btn btn-light collapsed mb-0" data-toggle="collapse" data-target="#meatCollapse" aria-expanded="false" aria-controls="meatCollapse">
                             <span class="button_heading">Mains - Meat</span> 
-                            <span class="center text_changes text-info"> 
+                            
+                            <!--Bootstrap text-info used to inform the user of the need to click on the image to open the menu.-->
+                            <span class="center text_family_size text-info"> 
                                 The menu opens and closes when you click on the image.
                             </span>
                         </button>
@@ -215,15 +239,20 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="/static/image/food_images/halloumifries.jpg" alt="Side Presentation" data-toggle="collapse" 
-                        data-target="#sidesCollapse" aria-expanded="false" aria-controls="sidesCollapse">
+                    
+                    <!-- When this image is clicked, the card menu is opened/closed.  -->
+                    <img class="card-img-top" src="/static/image/food_images/halloumifries.jpg" alt="Side Presentation" 
+                        data-toggle="collapse" data-target="#sidesCollapse" aria-expanded="false" aria-controls="sidesCollapse">
                     
                     <div class="card-header" id="sides">
                         
+                        <!--Bootstrap margin bottom 0 (mb-0)-->
                         <button class="btn btn-link collapsed mb-0" data-toggle="collapse" data-target="#sidesCollapse" aria-expanded="false" 
                             aria-controls="sidesCollapse">
                             <span class="button_heading">Sides</span>
-                            <span class="center text_changes text-info"> 
+                            
+                            <!--Bootstrap text-info used to inform the user of the need to click on the image to open the menu.-->
+                            <span class="center text_family_size text-info"> 
                                 The menu opens and closes when you click on the image.
                             </span>
                         </button>
@@ -270,17 +299,20 @@
                         </div>
                     </div>
                 <div class="card">
-                
+                    
+                    <!-- When this image is clicked, the card menu is opened/closed.  -->
                     <img class="card-img-top" src="/static/image/food_images/blackforest.jpg" alt="Dessert Presentation"
                         data-toggle="collapse" data-target="#dessertCollapse" aria-expanded="false" aria-controls="dessertCollapse">
                     
                     <div class="card-header" id="desserts">
                         
                         <!--bootstrap margin bottom 0-->
-                        <button class="btn btn-link collapsed mb-0" data-toggle="collapse" data-target="#dessertCollapse" aria-expanded="false" 
-                            aria-controls="dessertCollapse">
+                        <button class="btn btn-link collapsed mb-0" data-toggle="collapse" data-target="#dessertCollapse" 
+                            aria-expanded="false" aria-controls="dessertCollapse">
                             <span class="button_heading">Desserts</span>
-                            <span class="center text_changes text-info"> 
+                            
+                            <!--Bootstrap text-info used to inform the user of the need to click on the image to open the menu.-->
+                            <span class="center text_family_size text-info"> 
                                 The menu opens and closes when you click on the image.
                             </span>
                         </button>
@@ -315,22 +347,24 @@
         <div class="row footer_bg_color border_footer_top ">
             <div class="col-sm-4 center footer_items padding_div">
                 <h3 class="heading">Opening Times <br><i class="far fa-clock"></i></h3>
-                <p class="text_changes">Sun - Thu: 12:00-22:00 </p>
-                <p class="text_changes">Fri - Sat: 12:00-23:00 </p>
+                <p class="text_family_size">Sun - Thu: 12:00-22:00 <br> Fri - Sat: 12:00-23:00 </p>
                 
             </div>
             <div class="col-sm-4 center footer_items border_footer padding_div">
                 <h3 class="heading">Address & Contact <br><i class="fas fa-map-marker-alt"></i></h3>
-                <p class="text_changes">100 Falafel Road, GL1-345, London</p>
-                <p class="text_changes">555 232 343 454</p>
+                <p class="text_family_size">100 Falafel Road, GL1-345, London <br> 555 232 343 454</p>
             </div>
+            
             <div class="col-sm-4 center footer_items padding_div">
-                <!--Use of font awesome Instagram, Twitter and Facebook icons -->
+                
+                <!--Use of font awesome icons for Instagram, Twitter and Facebook  -->
                 <h3 class="heading pb-3">Social Media</h3>
-                <span> <i class="fab fa-instagram"></i></span>
-				<span> <i class="fab fa-twitter"></i></span>
-			    <span> <i class="fab fa-facebook-square"></i></span>
-			</div>
+                <span> <i class="fab fa-facebook-square"></i></span>
+                
+                <!--Bootstrap padding left and right 2 (pl-2, pr-2)-->
+				<span> <i class="pr-2 pl-2 fab fa-twitter"></i></span>
+			    <span> <i class="fab fa-instagram"></i></span>
+            </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
