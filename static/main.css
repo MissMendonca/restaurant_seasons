@@ -10,7 +10,11 @@ body,html{
 }
 .border_footer{
    border-top: 2px ridge #B5A774;
-   border-bottom: 2px ridge #B5A774
+   border-bottom: 2px ridge #B5A774;
+}
+.contact_border{
+    border: 2px ridge #B5A774; 
+    padding: 20px;
 }
 
 /*Background Color*/
@@ -103,8 +107,11 @@ a{
 .artists_events_div_width{
     width: 90%;
 }
+.contact_div_margin{
+    margin-top:  5%;   
+}
 
-.staff{
+.staff_image{
     width: 100%;    
 }
 
