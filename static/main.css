@@ -17,9 +17,11 @@ body,html{
     padding: 20px;
 }
 
+
+
 /*Background Color*/
 
-.slide_bg_color, .footer_bg_color, .staff_bg_color{
+.slide_bg_color, .footer_bg_color, .staff_bg_color, .contact_bg_color{
     background-color: #fcfcfa;
 }
 
@@ -88,6 +90,9 @@ a{
     margin: 0 35px;    
     
 }
+.contact_underline{
+    text-decoration: underline;    
+}
 
 .center{
     display: block;
@@ -104,7 +109,7 @@ a{
     margin-left: 0;
     margin-top: 0;
 }
-.artists_events_div_width{
+.artists_events_div_width, .contact_image{
     width: 90%;
 }
 .contact_div_margin{
@@ -153,6 +158,10 @@ a{
     }
 }
 @media (min-width:768px){
+    .contact_image{
+        width: 30%;  
+    }
+    
     .background_heading{
         font-size: 5em;
         padding: 150px 0;
