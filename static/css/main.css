@@ -21,14 +21,13 @@ body,html{
 
 /*Background Color*/
 
-.slide_bg_color, .footer_bg_color, .staff_bg_color, .contact_bg_color{
+.slide_bg_color, .footer_bg_color, .staff_bg_color, .contact_bg_color, .menu_bg_color{
     background-color: #fcfcfa;
 }
 
 /*Background Images*/
 
 .background_image{
-    background-image: url(/static/image/food_images/grilled-seafood.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -50,6 +49,10 @@ body,html{
 
 #about_bg_image{
     background-image: url(/static/image/others/groupofriends.jpg);
+}
+
+#menu_bg_image, #home_bg_image{
+    background-image: url(/static/image/food_images/grilledseafood.jpeg);
 }
 /* Colors */
 
