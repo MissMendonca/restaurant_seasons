@@ -21,9 +21,11 @@ body,html{
 
 /*Background Color*/
 
-.slide_bg_color, .footer_bg_color, .staff_bg_color, .contact_bg_color, .menu_bg_color{
+.slide_bg_color, .footer_bg_color, .staff_bg_color, .contact_bg_color, .menu_bg_color, .nav_bg_color .nav-link.active{
     background-color: #fcfcfa;
 }
+
+
 
 /*Background Images*/
 
@@ -34,9 +36,11 @@ body,html{
     background-clip: border-box;
     height: 70%; 
     border: 2px ridge #B5A774; 
+    opacity: 0.9;
 }
 
-.background_heading_home, .background_heading{
+
+.background_heading_home, .background_heading, .menu_heading{
     font-family: 'Merienda', cursive; 
     color: #fff;
     font-weight: 700;
@@ -44,16 +48,22 @@ body,html{
 }
 
 #restaurant_bg_image{
-    background-image: url(/static/image/others/restaurant_main.jpg);
+    background-image: url(/static/image/others/restaurantmain.jpg);
 }
 
 #about_bg_image{
     background-image: url(/static/image/others/groupofriends.jpg);
 }
 
-#menu_bg_image, #home_bg_image{
+
+#home_bg_image{
     background-image: url(/static/image/food_images/grilledseafood.jpeg);
 }
+
+ #menu_bg_image{
+    background-image: url(/static/image/others/restaurant.jpg);
+ }
+
 /* Colors */
 
 span > i{
@@ -121,7 +131,9 @@ a{
 .contact_div_margin{
     margin-top:  5%;   
 }
-
+.cards_width{
+    width: 65%;    
+}
 .staff_image{
     width: 100%;    
 }
@@ -170,9 +182,12 @@ a{
     
     .background_heading{
         font-size: 5em;
-        padding: 150px 0;
+        padding: 175px 0;
     }
-    
+    .menu_heading{
+        font-size: 6em;
+        padding: 175px 75px 175px 0
+    }
     .artists_events_div_width{
         width: 95%;
     }
