@@ -58,18 +58,157 @@
                  <a class="nav-link" href="/templates/drinks.html"><h4 class="heading">DRINKS MENU</h4></a>
             </li>
         </ul>
-        <div class="bg_color_menu">
-            <div class="container text_changes" >
-                <div class="w-75 center padding_div"> 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis, itaque! 
-                    Possimus corporis libero veniam, sapiente cum quod tempore iure error suscipit, 
-                    unde culpa cumque mollitia facere saepe excepturi, molestiae expedita natus aspernatur, 
-                    inventore rerum. 
+        <div class="bg_color_menu padding_div">
+            
+        
+        <div id="accordion" class="w-75 center padding_div mb-5">
+            <div class="text_changes padding_div">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut, autem ullam perferendis, ipsum obcaecati provident nulla,
+                assumenda inventore, consequatur quis! Corporis nemo libero eligendi, at unde. Magni, quam voluptatem!
+            </div>
+            <div class="card">
+                <img class="card-img-top presentation_image center" src="/static/image/food_images/mussels.jpg" 
+                    alt="Appetisers Presentation" data-toggle="collapse" data-target="#appetisersCollapse" 
+                    aria-expanded="true" aria-controls="appetisersCollapse">
+                <div class="card-header" id="appetisers">
+                    <button class="btn btn-light mb-0" data-toggle="collapse" data-target="#appetisersCollapse" 
+                        aria-expanded="true" aria-controls="appetisersCollapse">
+                        <span class="button_heading">Appetisers</span>
+                        <span class="center text_changes text-info"> 
+                            The menu opens when you click on the image.
+                        </span>
+                    </button>
+                </div>
+                <div id="appetisersCollapse" class="collapse show" aria-labelledby="appetisers" data-parent="#accordion">
+                    <div class="card-body center">
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">French Style Mussels</dt>
+                            <dd class="menu-item-description">Cream, White Wine, Garlic & Herbs</dd>
+                            <dd class="menu-item-accompaniment">Served with Fresh Baked Bread</dd>
+                            <dd class="menu-item-price">£9.50</dd>
+                        </dl>
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">Grilled Scallops</dt>
+                            <dd class="menu-item-description">Lemon, olive oil & Herbs</dd>
+                            <dd class="menu-item-accompaniment">Served with Chickpea salad</dd>
+                            <dd class="menu-item-price">£7</dd>
+                        </dl>
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">Marinated Olive Mix</dt>
+                            <dd class="menu-item-price">£4</dd>
+                        </dl>
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">Prawn Cocktail</dt>
+                            <dd class="menu-item-description">Chili & Marie Rose Sauce </dd>
+                            <dd class="menu-item-accompaniment">Served with Avocado & Fresh Baked Bread</dd>
+                            <dd class="menu-item-price">£6</dd>
+                        </dl>
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">Sautéed Octopus</dt>
+                            <dd class="menu-item-description">Chimichurri sauce</dd>
+                            <dd class="menu-item-price">£8</dd>
+                        </dl>
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">Sharing Board for 2</dt>
+                            <dd class="menu-item-accompaniment">Selection of Fine Cured Meats & World Selection of Cheese</dd>
+                            <dd class="menu-item-price">£12</dd>
+                        </dl>
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">Soup of the day</dt>
+                            <dd class="menu-item-accompaniment">Served with Fresh Baked Bread</dd>
+                            <dd class="menu-item-price">£4</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img id="buttonAppetiser" class="card-img-top" src="/static/image/food_images/lobsterchips.jpeg" 
+                    alt="Fish meal Presentation" data-toggle="collapse" data-target="#fishCollapse" aria-expanded="false" 
+                    aria-controls="fishCollapse">
+                <div class="card-header" id="mainFish">
+                
+                    <!--bootstrap margin bottom 0-->
+                    <button  class="btn btn-light collapsed mb-0" data-toggle="collapse" data-target="#fishCollapse" aria-expanded="false" 
+                        aria-controls="fishCollapse">
+                        <span class="button_heading">Mains - Fish</span>
+                        <span class="center text_changes text-info"> 
+                            The menu opens when you click on the image.
+                        </span>
+                    </button>
+                </div>
+                <div id="fishCollapse" class="collapse" aria-labelledby="mainFish" data-parent="#accordion">
+                    <div class="card-body">
+                        <dl class="menu-items">
+                                <dt class="menu-item-title">Fish Casserole (Cod, Seabream, Sword fish)</dt>
+                                <dd class="menu-item-description">Wine & Tomato Sauce</dd>
+                                <dd class="menu-item-accompaniment"> Served with Vegetables</dd>
+                                <dd class="menu-item-price"> £25</dd>
+                            </dl>
+                        <dl class="menu-items">
+                                <dt class="menu-item-title">Fresh Whole Lobster </dt>
+                                <dd class="menu-item-description">Garlic Butter</dd>
+                                <dd class="menu-item-accompaniment">Served with French Fries <br> *Choose your Lobster* </dd>
+                                <dd class="menu-item-price">£35</dd>
+                            </dl>
+                        <dl class="menu-items">
+                                <dt class="menu-item-title">Maple Soy Glazed Salmon</dt>
+                                <dd class="menu-item-accompaniment">Served with Mushroom and Asparagus Risotto</dd>
+                                <dd class="menu-item-price">£18</dd>
+                            </dl>
+                        <dl class="menu-items">
+                                <dt class="menu-item-title">Seafood Platter (Whole Lobster or Crab, Oyster, Mussels, King Prawn, Langoustines, Squid, Periwinkle)</dt>
+                                <dd class="menu-item-description">Mignonette sauce, Cocktail sauce & Lemon</dd>
+                                <dd class="menu-item-price">£55</dd>
+                            </dl>
+                        <dl class="menu-items">
+                                <dt class="menu-item-title">Today's Fresh </dt>
+                                <dd class="menu-item-description">Tartare sauce</dd>
+                                <dd class="menu-item-accompaniment">Served with French Fries & Mushy Peas</dd>
+                                <dd class="menu-item-price">£14</dd>
+                            </dl>
+                        <dl class="menu-items">
+                                <dt class="menu-item-title">Tuna Steak *Cooked Rare*</dt>
+                                <dd class="menu-item-accompaniment">Served with Chopped Salad</dd>
+                                <dd class="menu-item-price">£16</dd>
+                            </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img data-toggle="collapse" data-target="#meatCollapse" aria-expanded="false" aria-controls="meatCollapse" 
+                class="card-img-top" src="/static/image/food_images/filet.jpg" alt="Meat Presentation">
+                <div class="card-header" id="mainMeat">
+                
+                    <!--bootstrap margin bottom 0-->
+                    <button class="btn btn-light collapsed mb-0" data-toggle="collapse" data-target="#meatCollapse" aria-expanded="false" aria-controls="meatCollapse">
+                        <span class="button_heading">Mains - Meat</span> 
+                        <span class="center text_changes text-info"> 
+                            The menu opens when you click on the image.
+                        </span>
+                    </button>
+                </div>
+                <div id="meatCollapse" class="collapse" aria-labelledby="mainMeat" data-parent="#accordion">
+                    <div class="card-body">
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">Filet Mignon</dt>
+                            <dd class="menu-item-accompaniment">Served with Mash Potatoes & Steamed Vegetables</dd>
+                            <dd class="menu-item-price">£18</dd>
+                        </dl>
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">Rib-Eye Steak</dt>
+                            <dd class="menu-item-description">Hollandaise sauce</dd>
+                            <dd class="menu-item-accompaniment">Served with Rice & Sautéed Baby Potatoes</dd>
+                            <dd class="menu-item-price">£18</dd>
+                        </dl>
+                        <dl class="menu-items">
+                            <dt class="menu-item-title">Sun-dried Goat Meat</dt>
+                            <dd class="menu-item-accompaniment">Served with boiled Chayote & pan-fried Corn</dd>
+                            <dd class="menu-item-price">£20</dd>
+                        </dl>
+                    </div>
                 </div>
             </div>
         </div>
-        
-        
     </section>
     <footer>
         <!--Bootstrap Grid System-->

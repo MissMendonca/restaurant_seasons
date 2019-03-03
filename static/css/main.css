@@ -68,7 +68,7 @@ span > i{
 
 /*Font family, Font size, Font */
 
-.navbar-light .navbar-nav .nav-link, .heading {
+.navbar-light .navbar-nav .nav-link, .heading, .button_heading {
     font-family: 'Fredericka the Great', cursive;
     color: #415840;
     
@@ -86,7 +86,10 @@ a{
 .text_changes, .navbar-light .navbar-nav .nav-link{
     font-size: 20px;
 }
-
+.button_heading{
+    font-size: 2em;
+    
+}
 
 /*Margin, Padding, Center*/
 .staff_margin{
