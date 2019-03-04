@@ -102,6 +102,9 @@ span > i, .cheers{
 .button_heading{
     font-size: 2em;
 }
+.span_size{
+    font-size: medium;
+}
 
 
 /*Margin, Padding, Width, Height, Center*/
@@ -121,6 +124,9 @@ span > i, .cheers{
 
 .artists_events_div_width{
     width: 90%;
+}
+.contact_padding{
+    padding-top: 10%;
 }
 
 .card-deck{
@@ -162,7 +168,6 @@ span > i, .cheers{
 
 
 /*Others*/
-
 
 a, .btn-link{
     text-decoration: none !important;

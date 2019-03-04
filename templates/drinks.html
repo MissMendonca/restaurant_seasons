@@ -12,11 +12,15 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white" >
             <a class="navbar-brand" href="/templates/home.html">
-                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100" class="d-inline-block align-top" alt="Seasons Logo">
+                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100" 
+                    class="d-inline-block align-top" alt="Seasons Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <!--Font awesome icon button to open navbar on small devices-->
                 <span><i class="fas fa-utensils"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -25,7 +29,7 @@
                         <a class="nav-link" href="/templates/home.html">Home </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="/templates/menu.html">Menu <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/templates/menu.html">Menu<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="/templates/events.html">Events</a>
@@ -44,30 +48,38 @@
         </nav>
     </header>
     <section>
+    
         <!--Menu background_image-->
         <div class="background_image" id= "menu_bg_image">
             <h1 class="background_heading center">Menu</h1>
         </div>
         
-        <ul class="nav nav-tabs nav-fill nav_bg_color justify-content-center mt-5">
+        <!--Bootstrap Margin top 5 (mt-5)-->
+        <ul class="nav nav-tabs nav-fill justify-content-center nav_bg_color mt-5">
             <li class="nav-item">
-                <a class="nav-link" href="/templates/menu.html"><h4 class="heading">À LA CARTE</h4></a>
+                <!--Bootstrap padding top 2 (pt-2)-->
+                <a class="nav-link" href="/templates/menu.html">
+                    <h4 class="heading">À LA CARTE</h4>
+                </a>
             </li>
             <li class="nav-item">
-            
-                <!--Bootstrap padding top 3 (pt-3)-->
-                <a class="nav-link active pt-3" href="/templates/drinks.html"><h4 class="heading">DRINKS MENU</h4></a>
+                <a class="nav-link active pt-2" href="/templates/drinks.html">
+                    <h4 class="heading">DRINKS MENU</h4>
+                </a>
             </li>
         </ul>
         <div class="menu_bg_color center padding_div">
-            <blockquote class="blockquote text_changes padding_div">
+            <blockquote class="blockquote text_family_size padding_div">
                 <p class="mb-0">"Sleep - the most beautiful experience in life - except drink."
                 <footer class="blockquote-footer"> W. C. Fields</footer>
             </blockquote>
             
+            <!--Drinks Menu pdf file-->
             <a href="/static/image/others/drinks_menu.pdf" target="_blank"> 
-                <span class="cheers text_changes"> <i class="fas fa-glass-cheers"></i> View our Drinks Menu </span>
-                <img class="center w-50 p-4" src="/static/image/others/cheers.jpg" alt= "Cheers">
+                <span class="cheers text_family_size"> <i class="fas fa-glass-cheers"></i> Open here our Drinks Menu</span>
+                
+                <!--Bootstrap width 50% (w-50) padding 4 (p-4)-->
+                <img class="center w-50 p-4" src="/static/image/others/cheers.jpg" alt= "Cheers Image">
             </a>
         </div>
     </section>

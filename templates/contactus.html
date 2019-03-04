@@ -15,9 +15,13 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <a class="navbar-brand" href="/templates/home.html">
-                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100" class="d-inline-block align-top" alt="Seasons Logo">
+                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100"
+                    class="d-inline-block align-top" alt="Seasons Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <!--Font awesome icon button to open navbar on small devices-->
                 <span><i class="fas fa-utensils"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -49,17 +53,22 @@
         <div class="background_image" id="contact_bg_image">
             <h1 class="background_heading center">Contact Us</h1>
         </div>
-        <div class="container text_changes padding_div">
+        <div class="container text_family_size padding_div">
+            
             <!--Bootstrap Grid System-->
             <div class="row">
-                <div class="col-sm-5 offset-sm-1 center ">
-                    <h3 class="heading padding_div">Address</h3>
-                    <p class="contact_underline">100 Falafel Road, GL1-345, London</p>
-                    <br>
-                    <h3 class="heading padding_div">Contact Number</h3>
-                    <div class="alert alert-warning" role="alert">You can contact us by telephone number from 12:00 to 22:00
-                        Sunday to Thursday and from 12:00 to 23:00 between Friday and Saturday.
-                        <p class="contact_underline padding_div">555 232 343 454</p>
+                <div class="col-sm-5 offset-sm-1 center">
+                    <div class="padding_div">
+                        <h3 class="heading">Address</h3>
+                        <p class="contact_underline">100 Falafel Road, GL1-345, London</p>
+                    </div>
+                    <div class="contact_padding">
+                        <h3 class="heading">Contact Number</h3>
+                        <div class="alert alert-warning" role="alert">
+                            You can contact us by telephone number from 12:00 to 22:00
+                            Sunday to Thursday and from 12:00 to 23:00 between Friday and Saturday.
+                            <p class="contact_underline">555 232 343 454</p>
+                        </div>
                     </div>
                 </div>
                 <!--Bootstrap Grid System-->
@@ -87,6 +96,8 @@
 	                            <label for="message">Message</label>
 	                        	<textarea class="form-control" id="message" rows="3" placeholder="Your message" required></textarea>
 	                        </div>
+	                        
+	                        <!--Bootstrap margin bottom 4 (mb-4 )-->
                             <button type="submit" class="btn btn-primary center mb-4"><i class="fab fa-telegram-plane"></i></button>
                         </div>
                     </form>
