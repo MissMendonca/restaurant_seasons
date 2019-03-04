@@ -115,6 +115,11 @@ span > i, .cheers{
 .hide{
      display: inline-block;   
 }
+
+.hide_pitch{
+    display: none;  
+}
+
 .center{
     display: block;
     margin: 0 auto;
@@ -185,11 +190,12 @@ a, .btn-link{
     text-decoration: underline;    
 }
 
-.text_family_size{
+#align_left{
     text-align: left;
 }
 
 /*Media queries */
+
 
 @media(min-width: 576px ){
     .border_footer{
@@ -226,7 +232,11 @@ a, .btn-link{
     }
     
     .hide{
-        display: none; 
+        display: none !important; 
+    }
+    
+    .hide_pitch{
+        display: block;   
     }
 }
    
