@@ -5,7 +5,6 @@ body,html{
 
 /*Border*/
 
-
 .border_footer_top, .border_top{
     border-top: 2px ridge #B5A774;
 }
@@ -22,8 +21,12 @@ body,html{
 /*Background Color*/
 
 
-.slide_bg_color, .footer_bg_color, .staff_bg_color, .contact_bg_color, .menu_bg_color, .nav_bg_color .nav-link.active{
+.slide_bg_color, .footer_bg_color, .staff_bg_color, .contact_bg_color, .menu_bg_color, .nav_bg_color .nav-link.active {
     background-color: #fcfcfa;
+}
+
+.nav_bg_color_menu .nav-link.active{
+   background-color: #ffffff; 
 }
 
 
@@ -69,7 +72,7 @@ body,html{
 /* Colors */
 
 
-.navbar-light .navbar-nav .active> .nav-link{
+.navbar-light .navbar-nav .active> .nav-link  {
     color:#a0ab9f;
 }
 
@@ -122,6 +125,7 @@ span > i, .cheers{
     padding: 25px 0;    
 }
 
+
 .artists_events_div_width{
     width: 90%;
 }
@@ -129,11 +133,12 @@ span > i, .cheers{
     padding-top: 10%;
 }
 
+
 .card-deck{
     margin-left: 0;
     margin-top: 0;
 }
-.cards_width{
+.cards_width, .drinks_menu_width {
     width: 80%;    
 }
 
@@ -156,10 +161,11 @@ span > i, .cheers{
 }
 
 
-/*Hover*/
+/*Hover & More Colors*/
 
 
-.navbar-light .navbar-nav .nav-link:hover, .heading:hover, .cheers:hover{
+.navbar-light .navbar-nav .nav-link:hover, .heading:hover, .cheers:hover, 
+.nav_bg_color_menu .nav-link.active>.heading , .nav_bg_color .nav-link.active>.heading{
     color: #628460;
 }
 .footer_items:hover{
@@ -197,7 +203,7 @@ a, .btn-link{
 }
 @media (min-width:768px){
     
-    .cards_width{
+    .cards_width, .drinks_menu_width {
        width: 60%; 
     }
     .background_heading{
@@ -208,7 +214,12 @@ a, .btn-link{
     .artists_events_div_width{
         width: 95%;
     }
+    
+    .nav_bg_color_menu .nav-link.active{
+        background-color: #fcfcfa;    
+    }
 }
+   
 
 @media (min-width: 992px){
     .background_heading_home{
