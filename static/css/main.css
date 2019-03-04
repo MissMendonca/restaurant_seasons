@@ -94,7 +94,7 @@ span > i, .cheers{
     color: #415840;
 }
 
-.text_family_size, .footer_items, .menu-item-description, .menu-item-accompaniment, .menu-item-price{
+.text_family_size, .footer_items, .menu-item-description, .menu-item-accompaniment, .menu-item-price, .hide{
     font-family: 'Merienda', cursive;  
 }
 
@@ -112,7 +112,9 @@ span > i, .cheers{
 
 /*Margin, Padding, Width, Height, Center*/
 
-
+.hide{
+     display: inline-block;   
+}
 .center{
     display: block;
     margin: 0 auto;
@@ -217,6 +219,10 @@ a, .btn-link{
     
     .nav_bg_color_menu .nav-link.active{
         background-color: #fcfcfa;    
+    }
+    
+    .hide{
+        display: none; 
     }
 }
    
