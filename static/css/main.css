@@ -185,6 +185,10 @@ a, .btn-link{
     text-decoration: underline;    
 }
 
+.text_family_size{
+    text-align: left;
+}
+
 /*Media queries */
 
 @media(min-width: 576px ){
