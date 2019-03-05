@@ -15,19 +15,19 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <a class="navbar-brand" href="/templates/home.html">
-                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100"
+                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100" 
                     class="d-inline-block align-top" alt="Seasons Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
                 
-                <!--Font awesome icon button to open navbar on small devices-->
+                <!--Font awesome icon used as a button to open navbar on small devices-->
                 <span><i class="fas fa-utensils"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="/templates/home.html">Home </a>
+                        <a class="nav-link" href="/templates/home.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/templates/menu.html">Menu</a>
@@ -38,25 +38,25 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/templates/home.html#bookAtable">Book A Table</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="/templates/aboutus.html">About Us</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="/templates/contactus.html">Contact Us <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/templates/contactus.html">Contact Us<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <section>
-         <!--Contact Us background image-->
+        <!--Contact Us background image-->
         <div class="background_image" id="contact_bg_image">
             <h1 class="background_heading center">Contact Us</h1>
         </div>
-        <div class="container text_family_size padding_div">
+        <div class="container padding_div">
             
             <!--Bootstrap Grid System-->
-            <div class="row">
+            <div class="row text_family_size">
                 <div class="col-sm-5 offset-sm-1 center">
                     <div class="padding_div">
                         <h3 class="heading">Address</h3>
@@ -64,6 +64,8 @@
                     </div>
                     <div class="contact_padding">
                         <h3 class="heading">Contact Number</h3>
+                        
+                        <!--Bootstrap alert-->
                         <div class="alert alert-warning" role="alert">
                             You can contact us by telephone number from 12:00 to 22:00
                             Sunday to Thursday and from 12:00 to 23:00 between Friday and Saturday.
@@ -71,9 +73,13 @@
                         </div>
                     </div>
                 </div>
+                
                 <!--Bootstrap Grid System-->
-                <div class="col-sm-5 center mb-5 ">
-                    <form >
+                <!--Bootstrap margin bottom (mb-5)-->
+                <div class="col-sm-5 mb-5 center">
+                    
+                    <!--Bootstrap form-->
+                    <form>
                         <h3 class="heading padding_div">Contact Form</h3>
                         <div class="form-row ">
                             <div class="form-group col-md-6">
@@ -85,20 +91,22 @@
                                 <input type="text" class="form-control" id="lastName" placeholder="Martin" required>
                             </div>
                           	<div class="form-group col-md-12">
-	                            <label for="email">Email</label>
-	                            <input type="email" class="form-control" id="email" placeholder="info@seasons.com" required>
+                              	<label for="email">Email</label>
+                              	<input type="email" class="form-control" id="email" placeholder="info@seasons.com" required>
                            	</div>
                            	<div class="form-group col-md-12">
-	                            <label for="contact">Contact Number</label>
-	                            <input type="number" class="form-control" id="contact" placeholder="555 232 343 454" required>
-	                        </div>
+                               	<label for="contact">Contact Number</label>
+                               	<input type="number" class="form-control" id="contact" placeholder="555 232 343 454" required>
+                            </div>
                             <div class="form-group col-md-12">
-	                            <label for="message">Message</label>
-	                        	<textarea class="form-control" id="message" rows="3" placeholder="Your message" required></textarea>
-	                        </div>
-	                        
-	                        <!--Bootstrap margin bottom 4 (mb-4 )-->
-                            <button type="submit" class="btn btn-primary center mb-4"><i class="fab fa-telegram-plane"></i></button>
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Your message" required></textarea>
+                            </div>
+                            
+                            <!--Bootstrap margin bottom 4 (mb-4 )-->
+                            <button type="submit" class="btn btn-primary center mb-4">
+                                <i class="fab fa-telegram-plane"></i>
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -108,25 +116,27 @@
     <footer>
         <!--Bootstrap Grid System-->
         <div class="row footer_bg_color border_footer_top ">
-            <div class="col-sm-4 center footer_items padding_div">
+            <div class="col-sm-4 footer_items center padding_div">
+                
+                <!--clock font awesome icon-->
                 <h3 class="heading">Opening Times <br><i class="far fa-clock"></i></h3>
                 <p class="text_family_size">Sun - Thu: 12:00-22:00 <br> Fri - Sat: 12:00-23:00 </p>
-                
             </div>
-            <div class="col-sm-4 center footer_items border_footer padding_div">
+            <div class="col-sm-4 footer_items border_footer center padding_div">
+                
+                <!--pinpoint font awesome icon-->
                 <h3 class="heading">Address & Contact <br><i class="fas fa-map-marker-alt"></i></h3>
                 <p class="text_family_size">100 Falafel Road, GL1-345, London <br> 555 232 343 454</p>
             </div>
-            
-            <div class="col-sm-4 center footer_items padding_div">
+            <div class="col-sm-4 footer_items center padding_div">
                 
-                <!--Use of font awesome icons for Instagram, Twitter and Facebook  -->
+                <!--Font awesome icons for Facebook, Twitter and Instagram-->
                 <h3 class="heading pb-3">Social Media</h3>
                 <span> <i class="fab fa-facebook-square"></i></span>
                 
                 <!--Bootstrap padding left and right 2 (pl-2, pr-2)-->
-				<span> <i class="pr-2 pl-2 fab fa-twitter"></i></span>
-			    <span> <i class="fab fa-instagram"></i></span>
+                <span><i class="pr-2 pl-2 fab fa-twitter"></i></span>
+                <span><i class="fab fa-instagram"></i></span>
             </div>
         </div>
     </footer>
