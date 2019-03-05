@@ -14,9 +14,13 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <a class="navbar-brand" href="/templates/home.html">
-                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100" class="d-inline-block align-top" alt="Seasons Logo">
+                <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100" 
+                    class="d-inline-block align-top" alt="Seasons Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                
+                <!--Font awesome icon used as a button to open navbar on small devices-->
                 <span><i class="fas fa-utensils"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -49,71 +53,80 @@
         <div class="background_image" id="about_bg_image">
             <h1 class="background_heading center">About Us</h1>
         </div>
-        <div class="center padding_div staff_bg_color">
+        <div class="staff_bg_color center padding_div">
             <div class="container">
                 <!--bootstrap padding top 3(pt-3)-->
                 <h1 class="heading pt-3">Our Story</h1>
                 
                 <!--bootstrap Grid System-->
                 <div class="row">
-                    <div class="col-sm-8 offset-sm-2 text_family_size padding_div w-75 center align_left">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                        dolor in hendrerit in vulputate velit esse molestie consequat,
-                        vel illum dolore eu feugiat nulla facilisis at vero eros et
-                        accumsan et iusto odio dignissim qui blandit praesent luptatum
-                        zzril delenit augue duis dolore te feugait nulla facilisi.
-                        
+                
+                    <!--Bootstrap width 75% (w-75)-->
+                    <div class="col-sm-8 offset-sm-2 w-75 center padding_div">
+                        <p class="text_family_size align_left">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                            dolor in hendrerit in vulputate velit esse molestie consequat,
+                            vel illum dolore eu feugiat nulla facilisis at vero eros et
+                            accumsan et iusto odio dignissim qui blandit praesent luptatum
+                            zzril delenit augue duis dolore te feugait nulla facilisi.
+                        </p>
                     </div> 
                 </div>
             </div>
         </div>
-        <div class="center padding_div border_top">
+        <div class="border_top center padding_div">
             <div class="container">
                 <h2 class="heading padding_div">Our Staff</h2>
                 
                 <!--bootstrap Grid System-->
                 <div class="row">
                     <div class="col-sm-6 padding_div">
-                        <img class="staff_width" src="/static/image/staff/restaurantmanager.png" alt="Restaurant Manager">
+                        <img class="staff_width_img" src="/static/image/staff/restaurantmanager.png" alt="Natalie Lamar Restaurant Manager">
                         <h4 class="heading">Restaurant Manager</h4>
-                	    <p class="heading">Natalie Lamar</p>
+                	    <h5 class="heading">Natalie Lamar</h5>
                 	    
                 	    <!--bootstrap width 100% (w-100) and padding 5-->
-                	    <p class="padding_div w-100 text_family_size p-5 align_left">
-            	           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium tempora possimus incidunt esse quo ad maiores 
-            	           consequatur recusandae minus nostrum repellat molestiae qui odio, blanditiis praesentium laudantium saepe explicabo 
-            	           dolor ea modi? 
-            	           Sunt sint, dicta natus, ad recusandae est tempore unde.
-                	    </p>
+                	    <div class="w-100 p-5 padding_div">
+                    	    <p class="text_family_size align_left">
+                	           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium tempora possimus incidunt esse quo ad maiores 
+                	           consequatur recusandae minus nostrum repellat molestiae qui odio, blanditiis praesentium laudantium saepe explicabo 
+                	           dolor ea modi? 
+                	           Sunt sint, dicta natus, ad recusandae est tempore unde.
+                    	    </p>
+                	    </div> 
                 	</div>
-                    <div class="col-sm-6 padding_div center">
-                        <img class="staff_width" src="/static/image/staff/winedirector.png" alt="Wine Director">
+                    <div class="col-sm-6 center padding_div">
+                        <img class="staff_width_img" src="/static/image/staff/winedirector.png" alt="Giovanna Florenci Wine Director">
                         <h4 class="heading">Wine Director</h4>
-                	    <p class="heading">Giovanna Florenci</p>
+                	    <h5 class="heading">Giovanna Florenci</h5>
                 	    
                 	    <!--bootstrap width 100% (w-100) and padding 5-->
-                	    <p class="padding_div w-100 text_family_size p-5 align_left">
-            	           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, quae. Dolorum quia, cum ipsam. 
-            	           Incidunt fugit quo inventore asperiores fuga, dignissimos possimus repellendus ex nesciunt ratione animi aspernatur aperiam,
-            	           commodi!
-                	    </p>
+                	    <div class="w-100 p-5 padding_div">
+                    	    <p class="text_family_size align_left">
+                	           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, quae. Dolorum quia, cum ipsam. 
+                	           Incidunt fugit quo inventore asperiores fuga, dignissimos possimus repellendus ex nesciunt ratione animi aspernatur aperiam,
+                	           commodi!
+                    	    </p>
+                	    </div>
                 	</div>
                 	<div class="col-sm-6 offset-sm-3 padding_div">
-                        <img class="staff_width" src="/static/image/staff/chef.png" alt="Head Chef">
+                        <img class="staff_width_img" src="/static/image/staff/chef.png" alt="Leticia Keating Head Chef">
                         <h4 class="heading">Head Chef</h4>
-                	    <p class="heading">Leticia Keating</p>
+                	    <h5 class="heading">Leticia Keating</h5>
                 	    
-                	   <!--bootstrap width 100% (w-100) and padding 5-->
-                	    <p class="padding_div w-100 text_family_size p-5 align_left">
-                	       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ratione laboriosam. 
-                	       Nesciunt dolorem iste cupiditate eos vel excepturi ratione rem architecto officiis quasi, odio error
-                	       necessitatibus voluptate voluptates fugit porro delectus, numquam eum accusantium autem nulla enim animi deleniti. 
-                	       Esse eos hic consequatur, commodi deleniti odit, nesciunt, minima quae sunt. 
-                        </p>
+                	    <!--bootstrap width 100% (w-100) and padding 5-->
+                	    <div class="w-100 p-5 padding_div">
+                    	    <p class="text_family_size align_left">
+                    	       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ratione laboriosam. 
+                    	       Nesciunt dolorem iste cupiditate eos vel excepturi ratione rem architecto officiis quasi, odio error
+                    	       necessitatibus voluptate voluptates fugit porro delectus, numquam eum accusantium autem nulla enim animi deleniti. 
+                    	       Esse eos hic consequatur, commodi deleniti odit, nesciunt, minima quae sunt. 
+                            </p>
+                        </div>
                 	 </div>
                 </div>  
             </div> 
@@ -122,25 +135,28 @@
     <footer>
         <!--Bootstrap Grid System-->
         <div class="row footer_bg_color border_footer_top ">
-            <div class="col-sm-4 center footer_items padding_div">
+            <div class="col-sm-4 footer_items center padding_div">
+            
+                <!--clock font awesome icon-->
                 <h3 class="heading">Opening Times <br><i class="far fa-clock"></i></h3>
                 <p class="text_family_size">Sun - Thu: 12:00-22:00 <br> Fri - Sat: 12:00-23:00 </p>
-                
             </div>
-            <div class="col-sm-4 center footer_items border_footer padding_div">
+            <div class="col-sm-4 footer_items border_footer center padding_div">
+                
+                <!--pinpoint font awesome icon-->
                 <h3 class="heading">Address & Contact <br><i class="fas fa-map-marker-alt"></i></h3>
                 <p class="text_family_size">100 Falafel Road, GL1-345, London <br> 555 232 343 454</p>
             </div>
             
-            <div class="col-sm-4 center footer_items padding_div">
+            <div class="col-sm-4 footer_items center padding_div">
                 
-                <!--Use of font awesome icons for Instagram, Twitter and Facebook  -->
+                <!--Font awesome icons for Facebook, Twitter and Instagram-->
                 <h3 class="heading pb-3">Social Media</h3>
                 <span> <i class="fab fa-facebook-square"></i></span>
                 
                 <!--Bootstrap padding left and right 2 (pl-2, pr-2)-->
-				<span> <i class="pr-2 pl-2 fab fa-twitter"></i></span>
-			    <span> <i class="fab fa-instagram"></i></span>
+                <span><i class="pr-2 pl-2 fab fa-twitter"></i></span>
+			    <span><i class="fab fa-instagram"></i></span>
             </div>
         </div>
     </footer>
