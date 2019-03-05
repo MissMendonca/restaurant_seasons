@@ -112,12 +112,14 @@ span > i, .cheers{
 
 /*Margin, Padding, Width, Height, Center*/
 
-.hide{
-     display: inline-block;   
+.hide_big_screens{
+    white-space: pre-line;
 }
 
-.hide_pitch{
-    display: none;  
+.hide_small_screens{
+    display: none !important;
+    white-space: pre-line;
+    
 }
 
 .center{
@@ -231,12 +233,12 @@ a, .btn-link{
         background-color: #fcfcfa;    
     }
     
-    .hide{
+    .hide_big_screens{
         display: none !important; 
     }
     
-    .hide_pitch{
-        display: block;   
+    .hide_small_screens{
+        display: block !important;   
     }
 }
    
@@ -248,4 +250,21 @@ a, .btn-link{
     }
    
 }
+/*Animations */
 
+
+@keyframes attention {
+  from {font-size: 16px;}
+  to {font-size: 17px;}
+}
+
+/* The element to apply the animation to */
+.hide_big_screens {
+  animation-name: attention;
+  animation-duration: 4s;
+  animation-direction: normal;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 5;
+  animation-delay: 2s;
+}
