@@ -244,9 +244,14 @@ a, .btn-link{
     .nav_menu_bg_color .nav-link.active{
         background-color: #fcfcfa;    
     }
-    .span_size, span > i{
-        font-size: x-large;
+    
+    span > i{
+        font-size: x-large;   
     }
+    .span_size {
+        font-size: medium;
+    }
+    
     
     .drinks_menu_width, .cards_width {
        width: 60%; 
