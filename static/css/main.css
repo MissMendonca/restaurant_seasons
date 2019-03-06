@@ -112,13 +112,19 @@ span > i, .cheers_textcolor{
 
 /*Margin, Padding, Width, Height, Center*/
 
-.hide_big_screens{
+.pre-line{
     white-space: pre-line;
 }
 
 .hide_small_screens{
     display: none !important;
     white-space: pre-line;
+    
+}
+.margin_small_devices{
+    padding-top: 25px;
+    margin-top: 25px;
+    border-top: 2px ridge #B5A774;
     
 }
 
@@ -206,6 +212,13 @@ a, .btn-link{
         border-left:  2px ridge #B5A774;
         border-right:  2px ridge #B5A774;
     }
+    
+    .margin_small_devices{
+        margin-top: 0;  
+        border-top: 0;
+        padding-top: 0;
+    }
+    
 }
 
 

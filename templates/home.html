@@ -17,30 +17,30 @@
                 <img src="/static/image/others/LogoSample_ByTailorBrands.jpeg" height="50" width="100" 
                     class="d-inline-block align-top" alt="Seasons Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
                 
-                <!--Font awesome icon button to open navbar on small devices-->
+                <!--Font awesome icon used as a button to open navbar on small devices-->
                 <span><i class="fas fa-utensils"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/templates/home.html">Home <span class="sr-only">(current)</span> </a>
+                        <a class="nav-link" href="/templates/home.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/templates/menu.html">Menu</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="/templates/events.html">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/templates/home.html#bookAtable">Book A Table</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="/templates/aboutus.html">About Us</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="/templates/contactus.html">Contact Us</a>
                     </li>
                 </ul>
@@ -48,33 +48,34 @@
         </nav>
     </header>
     <section>
-    
         <!--Home background_image-->
         <div class="background_image" id="home_bg_image">
             <h1 class="background_heading_home center">Tastes Like Heaven</h1>
         </div>
         
         <div class="slide_bg_color padding_div">
-            
             <a href="/templates/events.html">
+            
                 <!--Bootstrap padding bottom 3 (pb-3)-->
                 <h1 class="heading center pb-3">Events</h1>
             </a>
-                        
-            <!--bootstrap width 75% (w-75)-->
-            <div class="w-50 center text_family_size alert alert-warning hide_small_screens align_left">
-                At Seasons, we focus on delivering fantastic customer service, food and entertainment.
-                To enhance your experience with us, we have decided to host live performances from the 5th of March, 
-                and our first guest will be the legendary singer Elton John.
-                We could not have reached this far without you, so for the next three events, the first 40 customers will get a 75 per cent discount 
-                on their ticket price!
+            
+            <!--bootstrap width 50% (w-50) and alert background/text color-->
+            <div class="hide_small_screens alert alert-warning w-50 center" role="alert">
+                <p class="text_family_size align_left"> 
+                    At Seasons, we focus on delivering fantastic customer service, food and entertainment.
+                    To enhance your experience with us, we have decided to host live performances from the 5th of March, 
+                    and our first guest will be the legendary singer Elton John.
+                    We could not have reached this far without you, so for the next three events, the first 40 customers will get a 75 per cent discount 
+                    on their ticket price!
+                </p>
             </div>
             
             <!--Bootstrap Grid System-->
             <a href="/templates/events.html">
                 <div class="row">
-                    <div class="col-sm-8 offset-sm-2 padding_div center">
-                    
+                    <div class="col-sm-8 offset-sm-2 center padding_div">
+                        
                         <!--Carousel showing the next three artists performing at the restaurant-->
                         <div id="eventsCarousel" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -112,9 +113,13 @@
                                 </div>
                             </div>    
                         </div>
-                        <div class="w-75 hide_big_screens alert alert-warning center text-success" role="alert" >
-                            <span class="center heading"><i class="far fa-calendar-check"></i> Upcoming Events</span>
-                            <div class="center ">
+                        
+                        <!--Bootstrap width 75%(w-75) and alert background color-->
+                        <div class="hide_big_screens alert alert-warning w-75 center " role="alert" >
+                            
+                            <!--Bootstrap text-success and font awesome calendar icon-->
+                            <span class="heading center "><i class="far fa-calendar-check"></i> Upcoming Events</span>
+                            <div class="text-success center pre-line">
                                 Elton John 05/03/2019
                                 Ella Mai 14/03/2019
                                 Michael Buble 28/03/2019
@@ -134,18 +139,22 @@
             <div class="col-sm-6 center">
                 <a href="#"><h2 class="heading">Book A Table</h2></a>
                 <hr class="horizontal">
-                <iframe class="center" id="bookAtable" src="https://www.opentable.co.uk/widget/reservation/canvas?rid=51886&amp;type=standard&amp;theme=tall&amp;overlay=true&amp;lang=en&amp;r3abvariant=false&amp;r3uid=Hkln5Yu7fX&amp;newtab=false" 
+                <iframe class="center" id="bookAtable" src="https://www.opentable.co.uk/widget/reservation/canvas?rid=51886&amp;
+                type=standard&amp;theme=tall&amp;overlay=true&amp;lang=en&amp;r3abvariant=false&amp;r3uid=Hkln5Yu7fX&amp;newtab=false" 
                 width="286" height="450" frameborder="0" scrolling="no"></iframe>
             </div>
+            
             <div class="col-sm-6 center">
-                <a href="/templates/menu.html"><h2 class="heading">Explore the Menu</h2></a>
+                <a href="/templates/menu.html"><h2 class="margin_small_devices heading">Explore the Menu</h2></a>
                 <hr class="horizontal">
                 
-                <!--Bootstrap margin top 5( mt-5 ), width 75% (w-75) -->
-                <div class="w-75 mt-5 center text_family_size align_left">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quos, aperiam voluptas quisquam. 
-                    Voluptatem doloremque obcaecati culpa unde optio quae saepe est dicta, a incidunt, aspernatur eligendi aliquid, 
-                    consectetur pariatur!
+                <!--Bootstrap margin top 5(mt-5), width 75% (w-75) -->
+                <div class="w-75 mt-5 center">
+                    <p class="text_family_size align_left">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quos, aperiam voluptas quisquam. 
+                        Voluptatem doloremque obcaecati culpa unde optio quae saepe est dicta, a incidunt, aspernatur eligendi aliquid, 
+                        consectetur pariatur!
+                    </p>
                 </div>
             </div>
         </div>
@@ -153,25 +162,27 @@
     <footer>
         <!--Bootstrap Grid System-->
         <div class="row footer_bg_color border_footer_top ">
-            <div class="col-sm-4 center footer_items padding_div">
+            <div class="col-sm-4 footer_items center padding_div">
+                
+                <!--clock font awesome icon-->
                 <h3 class="heading">Opening Times <br><i class="far fa-clock"></i></h3>
                 <p class="text_family_size">Sun - Thu: 12:00-22:00 <br> Fri - Sat: 12:00-23:00 </p>
-                
             </div>
-            <div class="col-sm-4 footer_items border_footer padding_div">
-                <h3 class="center heading">Address & Contact <br><i class="fas fa-map-marker-alt"></i></h3>
-                <p class="text_family_size center">100 Falafel Road, GL1-345, London <br> 555 232 343 454</p>
-            </div>
-            
-            <div class="col-sm-4 center footer_items padding_div">
+            <div class="col-sm-4 footer_items border_footer center padding_div">
                 
-                <!--Use of font awesome icons for Instagram, Twitter and Facebook  -->
+                <!--pinpoint font awesome icon-->
+                <h3 class="heading">Address & Contact <br><i class="fas fa-map-marker-alt"></i></h3>
+                <p class="text_family_size">100 Falafel Road, GL1-345, London <br> 555 232 343 454</p>
+            </div>
+            <div class="col-sm-4 footer_items center padding_div">
+                
+                <!--Font awesome icons for Facebook, Twitter and Instagram-->
                 <h3 class="heading pb-3">Social Media</h3>
                 <span> <i class="fab fa-facebook-square"></i></span>
                 
                 <!--Bootstrap padding left and right 2 (pl-2, pr-2)-->
-				<span> <i class="pr-2 pl-2 fab fa-twitter"></i></span>
-			    <span> <i class="fab fa-instagram"></i></span>
+                <span><i class="pr-2 pl-2 fab fa-twitter"></i></span>
+                <span><i class="fab fa-instagram"></i></span>
             </div>
         </div>
     </footer>
