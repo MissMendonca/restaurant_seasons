@@ -5,7 +5,8 @@ body,html{
 
 /*Border*/
 
-.border_footer_top, .border_top{
+
+.border_top, .border_footer_top {
     border-top: 2px ridge #B5A774;
 }
 .border_footer{
@@ -17,18 +18,16 @@ body,html{
     padding: 20px;
 }
 
-
 /*Background Color*/
 
 
-.slide_bg_color, .footer_bg_color, .staff_bg_color, .contact_bg_color, .menu_bg_color, .nav_bg_color .nav-link.active {
-    background-color: #fcfcfa;
+.slide_bg_color, .footer_bg_color, .nav_drinks_bg_color .nav-link.active, .menu_bg_color, .staff_bg_color, .contact_bg_color  {
+    background-color: #fcfcfa; 
 }
 
-.nav_bg_color_menu .nav-link.active{
-   background-color: #ffffff; 
+.nav_menu_bg_color .nav-link.active{
+   background-color: #fff; 
 }
-
 
 /*Background Images*/
 
@@ -57,34 +56,34 @@ body,html{
 #menu_bg_image{
     background-image: url(/static/image/others/restaurant.jpg);
  }
+ 
 #events_bg_image{
     background-image: url(/static/image/others/artist.jpeg);
 }
+
 #about_bg_image{
     background-image: url(/static/image/others/groupofriends.jpg);
 }
 
 #contact_bg_image{
-    background-image: url(/static/image/others/coffeemailt.jpg);
+    background-image: url(/static/image/others/coffeemail.jpg);
 }
-
 
 /* Colors */
 
 
-.navbar-light .navbar-nav .active> .nav-link  {
+.navbar-light .navbar-nav .active > .nav-link  {
     color:#a0ab9f;
 }
 
 span > i, .cheers_textcolor{
-   font-size: x-large; 
+   font-size: medium; 
    color: #415840;
 }
 
 .menu-item-price{
     color:  #a0a0a0;
 }
-
 
 /*Font family, Font size, Font */
 
@@ -94,11 +93,11 @@ span > i, .cheers_textcolor{
     color: #415840;
 }
 
-.text_family_size, .footer_items, .menu-item-description, .menu-item-accompaniment, .menu-item-price, .hide{
+.text_family_size, .footer_items, .menu-item-description, .menu-item-accompaniment, .menu-item-price{
     font-family: 'Merienda', cursive;  
 }
 
-.text_family_size, .navbar-light .navbar-nav .nav-link{
+ .navbar-light .navbar-nav .nav-link, .text_family_size{
     font-size: 20px;
 }
 
@@ -109,24 +108,7 @@ span > i, .cheers_textcolor{
     font-size: small;
 }
 
-
-/*Margin, Padding, Width, Height, Center*/
-
-.pre-line{
-    white-space: pre-line;
-}
-
-.hide_small_screens{
-    display: none !important;
-    white-space: pre-line;
-    
-}
-.margin_small_devices{
-    padding-top: 25px;
-    margin-top: 25px;
-    border-top: 2px ridge #B5A774;
-    
-}
+/*Margin, Padding, Width, Height*/
 
 .center{
     display: block;
@@ -140,21 +122,24 @@ span > i, .cheers_textcolor{
     padding: 25px 0;    
 }
 
+.margin_small_devices{
+    padding-top: 25px;
+    margin-top: 25px;
+    border-top: 2px ridge #B5A774;
+    
+}
 
 .artists_events_div_width{
     width: 90%;
 }
-.contact_padding{
-    padding-top: 10%;
-}
 
+.cards_width, .drinks_menu_width {
+    width: 80%;    
+}
 
 .card-deck{
     margin-left: 0;
     margin-top: 0;
-}
-.cards_width, .drinks_menu_width {
-    width: 80%;    
 }
 
 .staff_width_img{
@@ -163,6 +148,10 @@ span > i, .cheers_textcolor{
 
 .contact_div_margin{
     margin-top:  5%;   
+}
+
+.contact_padding{
+    padding-top: 10%;
 }
 
 /*Hr */
@@ -179,16 +168,30 @@ span > i, .cheers_textcolor{
 /*Hover & More Colors*/
 
 
-.navbar-light .navbar-nav .nav-link:hover, .heading:hover, .cheers_textcolor:hover, 
-.nav_bg_color_menu .nav-link.active>.heading , .nav_bg_color .nav-link.active>.heading{
+.navbar-light .navbar-nav .nav-link:hover, .heading:hover, .nav_menu_bg_color .nav-link.active >.heading,
+.nav_drinks_bg_color .nav-link.active >.heading , .cheers_textcolor:hover{
     color: #628460;
 }
+
 .footer_items:hover{
     background-color: #f0ede3;
 }
 
-
 /*Others*/
+
+
+.align_left{
+    text-align: left;
+}
+
+.pre-line{
+    white-space: pre-line;
+}
+
+.hide_small_screens{
+    display: none !important;
+    white-space: pre-line;
+}
 
 a, .btn-link{
     text-decoration: none !important;
@@ -198,29 +201,23 @@ a, .btn-link{
     text-decoration: underline;    
 }
 
-.align_left{
-    text-align: left;
-}
-
 /*Media queries */
 
 
 @media(min-width: 576px ){
-    .border_footer{
-        border-top: 0;
-        border-bottom: 0;
-        border-left:  2px ridge #B5A774;
-        border-right:  2px ridge #B5A774;
-    }
-    
     .margin_small_devices{
         margin-top: 0;  
         border-top: 0;
         padding-top: 0;
     }
     
+    .border_footer{
+        border-top: 0;
+        border-bottom: 0;
+        border-left:  2px ridge #B5A774;
+        border-right:  2px ridge #B5A774;
+    }
 }
-
 
 @media (min-width: 768px) and (max-width: 991px){
     .background_heading_home{
@@ -228,22 +225,12 @@ a, .btn-link{
         font-size: 6em;
     }
 }
+
 @media (min-width:768px){
     
-    .cards_width, .drinks_menu_width {
-       width: 60%; 
-    }
     .background_heading{
         font-size: 5em;
         padding: 175px 0;
-    }
-    
-    .artists_events_div_width{
-        width: 95%;
-    }
-    
-    .nav_bg_color_menu .nav-link.active{
-        background-color: #fcfcfa;    
     }
     
     .hide_big_screens{
@@ -253,16 +240,30 @@ a, .btn-link{
     .hide_small_screens{
         display: block !important;   
     }
+    
+    .nav_menu_bg_color .nav-link.active{
+        background-color: #fcfcfa;    
+    }
+    .span_size, span > i{
+        font-size: x-large;
+    }
+    
+    .drinks_menu_width, .cards_width {
+       width: 60%; 
+    }
+    
+    .artists_events_div_width{
+        width: 95%;
+    }
 }
    
-
 @media (min-width: 992px){
     .background_heading_home{
         padding: 225px 0;
         font-size: 6em;
     }
-   
 }
+
 /*Animations */
 
 
@@ -271,8 +272,8 @@ a, .btn-link{
   to {font-size: 17px;}
 }
 
-/* The element to apply the animation to */
-.hide_big_screens {
+.hide_big_screens{
+    
   animation-name: attention;
   animation-duration: 4s;
   animation-direction: normal;
@@ -280,4 +281,5 @@ a, .btn-link{
   animation-fill-mode: forwards;
   animation-iteration-count: 5;
   animation-delay: 2s;
+  
 }
