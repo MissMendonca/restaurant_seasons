@@ -50,7 +50,9 @@ body,html{
 }
 
 #home_bg_image{
+    
     background-image: url(/static/image/food_images/seafood.jpg);
+    filter: brightness(89.5%);
 }
 
 #menu_bg_image{
@@ -217,6 +219,10 @@ a, .btn-link{
         border-left:  2px ridge #B5A774;
         border-right:  2px ridge #B5A774;
     }
+    
+    #home_bg_image{
+        filter: brightness(100%);   
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -273,7 +279,7 @@ a, .btn-link{
 
 @keyframes attention {
   from {font-size: 16px;}
-  to {font-size: 17px;}
+  to {font-size: 18px;}
 }
 
 .hide_big_screens{
@@ -285,5 +291,6 @@ a, .btn-link{
   animation-fill-mode: forwards;
   animation-iteration-count: 5;
   animation-delay: 2s;
+  animation-timing-function: linear;
   
 }
