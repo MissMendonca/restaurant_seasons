@@ -167,7 +167,9 @@ Drinks menu inspiration from Slug and Lettuce drinks menu
 
 Last but not least...
 
-    I could not have done the Seasons Food Menu without the help of my fantastic friend - the Chef Christophe Laurent.
+    I could not have done the Seasons Food Menu without the help of my fantastic friend 
+        - the Chef Christophe Laurent.
+    
     He made this menu with so much love and caring, and I will always be grateful for his contribution.
 
 
