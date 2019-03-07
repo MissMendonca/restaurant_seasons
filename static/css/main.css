@@ -50,7 +50,6 @@ body,html{
 }
 
 #home_bg_image{
-    
     background-image: url(/static/image/food_images/seafood.jpg);
     filter: brightness(89.5%);
 }
