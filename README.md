@@ -64,8 +64,10 @@ Technologies Used
 Content
 
 
-    The code for the hr style in the home.html page was copied from https://codepen.io/ibrahimjabbari/pen/ozinB ;
-    Photos used in this site were resized on https://bulk.webresizer.com/ ;
+    The code for the hr style in the home.html page was copied from 
+        https://codepen.io/ibrahimjabbari/pen/ozinB ;
+    Photos used in this site were resized on 
+        https://bulk.webresizer.com/ ;
     I have consulted https://www.w3schools.com/ and some topics on https://stackoverflow.com/ to remind me of some HTML elements and CSS properties.
 
 Media 
