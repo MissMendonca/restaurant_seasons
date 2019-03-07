@@ -19,42 +19,48 @@ Features
 
 
 The menu.html page has:
-    1- Bootstrap collapse cards to show the restaurant menu.
+    
+    Bootstrap collapse cards to show the restaurant menu.
 
 The drinks.html has:
-    1- An image that when is clicked opens the drink menu pdf. 
+    
+    An image that when is clicked opens the drink menu pdf. 
           
 The home.html page has:
-    1- A Bootstrap warning div - informing the customers of upcoming events;
-    2- A bootstrap slide - showing the next three artists performing at the restaurant;
-    3- An iframe Booking system - that allows a user to book a table.
+    
+    i- A Bootstrap warning div - informing the customers of upcoming events;
+    ii- A bootstrap slide - showing the next three artists performing at the restaurant;
+    iii- An iframe Booking system - that allows a user to book a table.
 
-!!! Attention: 
+    !!! Attention!!! 
 
-I have not created the iframe Booking system present on my website. 
-The OpenTable iframe was taken from "Dinner by Heston Blumenthal" website!
+    I have not created the iframe Booking system present on my website. 
+    The OpenTable iframe was taken from "Dinner by Heston Blumenthal" website!
 
-!!!
 
 The events.html page has:
-    1- Bootstrap cards to display information about the date of the event as well as the Artist's name and picture.
+    
+    Bootstrap cards to display information about the date of the event as well as the Artist's name and picture.
 
 The aboutus.html page uses:
-    1- Bootstrap Grid system to provide historical information about the restaurant and the staff.
+    
+    Bootstrap Grid system to provide historical information about the restaurant and the staff.
     
 The contactus.html page allows a user to get in contact with the restaurant by displaying:
-    1 - A Bootstrap Contact Form filled with placeholders to help the user fill up the form; 
-    2 - The restaurant address;
-    3- A Bootstrap Warning div with the restaurant opening times and contact number.
+    
+    i. A Bootstrap Contact Form filled with placeholders to help the user fill up the form; 
+    ii. The restaurant address;
+    iii. A Bootstrap Warning div with the restaurant opening times and contact number.
+
 
 Technologies Used
 
 
-Bootstrap library version 4.0.0;
-Font Awesome library version 5.7.2 - to get illustration icons;
-Google Font library - Fredericka the Great and Merienda Font Families used in this project;
-JQuery version 3.2.1 - to enable Bootstrap 4.0.0 . 
-
+    Bootstrap library version 4.0.0;
+    Font Awesome library version 5.7.2 - to get illustration icons;
+    Google Font library - Fredericka the Great and Merienda Font Families used in this project;
+    JQuery version 3.2.1 - to enable Bootstrap 4.0.0 . 
+    
 Content
 
 
@@ -63,6 +69,7 @@ Photos used in this site were resized on https://bulk.webresizer.com/ ;
 I have consulted https://www.w3schools.com/ and some topics on https://stackoverflow.com/ to remind me of some HTML elements and CSS properties.
 
 Media 
+
 
 The photos used in this site were obtained from :
 
@@ -94,25 +101,25 @@ Staff images were created on Bitmoji app.
 
     Artists 
 
-Adele 
+Adele
     https://i.pinimg.com/originals/f9/6f/89/f96f89a7d4bdeb3478b64558de84d5af.jpg 
 
-Ella Mai 
+Ella Mai
     https://www.rollingstone.com/wp-content/uploads/2018/10/Ella-Mai-Press-Photo-Jonathan-Mannion-2018.jpg?crop=900:600&width=1910 
 
 Elton John 
     https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/eltonjohn-hero-513009840.jpg?itok=d95sZruJ 
 
-Jessie J 
+Jessie J
     https://303magazine.com/wp-content/uploads/2015/02/Jessie-J-2015-Grammy-Awards-makeup-hair.jpg 
 
-Kevin Hart 
+Kevin Hart
     https://www.hollywoodnewssource.com/wp-content/uploads/2018/12/1525901139_ent18_june_kevinhart_2.jpg 
 
-Mariah Carey 
+Mariah Carey
     https://akns-images.eonline.com/eol_images/Entire_Site/2019016/rs_600x600-190116155903-600-mariah-carey.jpg?fit=around|700:700&crop=700:700;center,top&output-quality=90 
 
-Michael Buble  
+Michael Buble
     https://static.standard.co.uk/s3fs-public/thumbnails/image/2016/11/03/17/michaelbuble.jpg?w968 ;
 
 Michelle Obama  
@@ -146,6 +153,7 @@ Contact Us page Div
 For great photos, please visit https://unsplash.com/ .
 
 Acknowledgements
+
 
 I received inspiration for this project from 
     
