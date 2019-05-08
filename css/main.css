@@ -50,24 +50,24 @@ body,html{
 }
 
 #home_bg_image{
-    background-image: url(image/food_images/seafood.jpg);
+    background-image: url(/image/food_images/seafood.jpg);
     filter: brightness(89.5%);
 }
 
 #menu_bg_image{
-    background-image: url(image/others/restaurant.jpg);
+    background-image: url(/image/others/restaurant.jpg);
  }
  
 #events_bg_image{
-    background-image: url(image/others/artist.jpeg);
+    background-image: url(/image/others/artist.jpeg);
 }
 
 #about_bg_image{
-    background-image: url(image/others/groupofriends.jpg);
+    background-image: url(/image/others/groupofriends.jpg);
 }
 
 #contact_bg_image{
-    background-image: url(image/others/coffeemail.jpg);
+    background-image: url(/image/others/coffeemail.jpg);
 }
 
 /* Colors */
