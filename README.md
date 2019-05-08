@@ -26,7 +26,7 @@ The drinks.html has:
     
     An image that when is clicked opens the drink menu pdf. 
           
-The home.html page has:
+The index.html page has:
     
     i- A Bootstrap warning div - informing the customers of upcoming events;
     ii- A bootstrap slide - showing the next three artists performing at the restaurant;
