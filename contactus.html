@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Merienda:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/css/main.css" type="text/css" />
-    <title>Seasons Drinks Menu</title>
+    <title>Season Contact us</title>
 </head>
 <body>
     <header>
@@ -28,63 +28,88 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/index.html">Home</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/templates/menu.html">Menu<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/menu.html">Menu</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="/templates/events.html">Events</a>
+                        <a class="nav-link" href="/events.html">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/index.html#bookAtable">Book A Table</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="/templates/aboutus.html">About Us</a>
+                        <a class="nav-link" href="/aboutus.html">About Us</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="/templates/contactus.html">Contact Us</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/contactus.html">Contact Us<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <section>
-        <!--Menu background_image-->
-        <div class="background_image" id= "menu_bg_image">
-            <h1 class="background_heading center">Menu</h1>
+        <!--Contact Us background image-->
+        <div class="background_image" id="contact_bg_image">
+            <h1 class="background_heading center">Contact Us</h1>
         </div>
-        
-        <!--Bootstrap Margin top 5 (mt-5)-->
-        <ul class="nav nav-tabs nav-fill justify-content-center nav_drinks_bg_color mt-5">
-            <li class="nav-item">
-                <a class="nav-link" href="/templates/menu.html">
-                    <h4 class="heading">À LA CARTE</h4>
-                </a>
-            </li>
-            <li class="nav-item">
-                
-                <!--Bootstrap padding top 2 (pt-2)-->
-                <a class="nav-link active pt-2" href="/templates/drinks.html">
-                    <h4 class="heading">DRINKS MENU</h4>
-                </a>
-            </li>
-        </ul>
-        <div class="menu_bg_color center padding_div">
-            <blockquote class="blockquote text_family_size padding_div">
-                
-                <!--Bootstrap margin bottom(mb-0)-->
-                <p class="mb-0">"Sleep - the most beautiful experience in life - except drink."
-                <footer class="blockquote-footer"> W. C. Fields</footer>
-            </blockquote>
+        <div class="container padding_div">
             
-            <!--Drinks Menu pdf file-->
-            <a href="/static/image/others/drinks_menu.pdf" target="_blank"> 
-                <span class="cheers_textcolor">
-                    <i class="fas fa-glass-cheers">Open here our Drinks Menu</i> 
-                </span>
+            <!--Bootstrap Grid System-->
+            <div class="row text_family_size">
+                <div class="col-sm-5 offset-sm-1 center">
+                    <div class="padding_div">
+                        <h3 class="heading">Address</h3>
+                        <p class="contact_underline">100 Falafel Road, GL1-345, London</p>
+                    </div>
+                    <div class="contact_padding">
+                        <h3 class="heading">Contact Number</h3>
+                        
+                        <!--Bootstrap alert-->
+                        <div class="alert alert-warning" role="alert">
+                            You can contact us by telephone number from 12:00 to 22:00
+                            Sunday to Thursday and from 12:00 to 23:00 between Friday and Saturday.
+                            <p class="contact_underline">555 232 343 454</p>
+                        </div>
+                    </div>
+                </div>
                 
-                <!--Bootstrap padding 4 (p-4)-->
-                <img class="drinks_menu_width p-4 center" src="/static/image/others/cheers.jpg" alt= "Cheers Image">
-            </a>
+                <!--Bootstrap Grid System-->
+                <!--Bootstrap margin bottom (mb-5)-->
+                <div class="col-sm-5 mb-5 center">
+                    
+                    <!--Bootstrap form-->
+                    <form>
+                        <h3 class="heading padding_div">Contact Form</h3>
+                        <div class="form-row ">
+                            <div class="form-group col-md-6">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Lewis" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Martin" required>
+                            </div>
+                          	<div class="form-group col-md-12">
+                              	<label for="email">Email</label>
+                              	<input type="email" class="form-control" id="email" placeholder="info@seasons.com" required>
+                           	</div>
+                           	<div class="form-group col-md-12">
+                               	<label for="contact">Contact Number</label>
+                               	<input type="number" class="form-control" id="contact" placeholder="555 232 343 454" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Your message" required></textarea>
+                            </div>
+                            
+                            <!--Bootstrap margin bottom 4 (mb-4 )-->
+                            <button type="submit" class="btn btn-primary center mb-4">
+                                <i class="fab fa-telegram-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
